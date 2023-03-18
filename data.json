@@ -1,0 +1,76 @@
+[
+    {
+        "id": 1,
+        "nombre": "Royal Canin Junio 3 KG.",
+        "precio": 2000,
+        "marca": "Royal Canin",
+        "imagen": "./img/uno.png",
+        "cantidad": 1
+        
+    },
+    {
+        "id": 2,
+        "nombre": "Royal Canin Puppy Maxi 3 KG",
+        "precio": 4000,
+        "marca": "Royal Canin",
+        "imagen": "./img/dos.png",
+        "cantidad": 1
+    },
+
+    {
+        "id": 3,
+        "nombre": "Agility cats 10 KG.",
+        "precio": 3000,
+        "marca": "Agility",
+        "imagen": "./img/tres.png",
+        "cantidad": 1
+       
+    },
+    {
+        "id": 4,
+        "nombre":"Excelent Gato Cachorro 1 KG.",
+        "precio": 3000,
+        "marca": "Purina",
+        "imagen": "./img/cuatro.png",
+        "cantidad": 1
+       
+    },
+    {
+        "id": 5,
+        "nombre": "Royal Canin Adul Mini 1KG.",
+        "precio": 2000,
+        "marca": "Royal Canin",
+        "imagen": "./img/cinco.png",
+        "cantidad": 1
+       
+    },
+    {
+        "id": 6,
+        "nombre": "Royal Canin Medium Adul. 3 KG",
+        "precio": 2000,
+        "marca": "Royal Canin",
+        "imagen": "./img/seis.png",
+        "cantidad": 1
+       
+    },
+    {
+        "id": 7,
+        "nombre": "Proplan Perro Cachorro 1 KG",
+        "precio": 2000,
+        "marca": "Purina",
+        "imagen": "./img/siete.png",
+        "cantidad": 1
+       
+    },
+    {
+        "id": 8,
+        "nombre": "Unik Perro Cachorro 7,5",
+        "precio": 2000,
+        "marca": "Unik",
+        "imagen": "./img/ocho.png",
+        "cantidad": 1
+       
+    }
+    
+
+]

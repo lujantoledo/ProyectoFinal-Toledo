@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" > <!--ata-bs-theme="dark" para agregar al darkmode-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">
+    <!--Iconos de bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Tienda de veterinaria</title>
+</head>
+<body >
+    <!--Barra de Navegacion-->
+    <body data-bs-theme= "light" >
+      <!--Barra de Navegacion-->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+          <div class="container">
+            <a class="navbar-brand" href="#"><img src="/img/Logos.png"class="img-fluid" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto "> <!--Mueve las opciones a la izquierda-->
+                
+              <li class="nav-item">
+                <a class="nav-link activate " href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="tienda.html">Tienda</a>
+                </li>
+                
+               
+                
+                   <button onclick="cambiarTema()" class="btn btn-outline-secondary  ms-2" type="submit"><i id="modo" class="bi bi-brightness-high-fill"></i></button>
+                   <button class="btn btn-outline-secondary  ms-2" type="submit" id="boton-carrito"><i  class=""></i> <span id="contador-carrito"></span> </button>
+              
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      <!--Seccion Bienvenida-->
+<section class="main-1 py-5">
+    <div class="container">
+        <div class="row py-5">
+            <div class="col-lg-6 py-5">
+                <p class="m-0">Tienda de Mascotas</p>
+                <h1>Semana de descuentos</h1>
+                <div class="line my-4"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, fugiat voluptatem, repellendus amet error eum cum, in placeat non tempore vel. Similique, ipsum a eveniet nesciunt rem quos ut fugit.
+                Laboriosam velit aliquid nesciunt praesentium ipsam earum numquam neque maiores nulla. Culpa exercitationem eum at accusamus asperiores. Mollitia cupiditate illo ipsam, nulla laborum facere amet optio sed repellendus ducimus nostrum?</p>
+                <a class="btn btn-buy" href="tienda.html" >Compra Ahora</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+<script src="datos.js"></script>
+<script defer src="modal-carrito.js"></script>
+<script src="app.js"></script>
+
+    <!--Boostrap-->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!--Jquery-->
+     <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+</body>
+</html>
